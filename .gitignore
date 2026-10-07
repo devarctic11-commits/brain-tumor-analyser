@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+env/
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large data & model files
+database/
+models/*
+!models/mobilenet_v2.keras
+
+# Intermediate / scratch scripts
+pdf_content.txt
+pdf_content_utf8.txt
+convert_encoding.py
+print_content.py
+read_pdf.py
+create_notebook.py
+
+# Logs
+*.log
